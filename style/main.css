@@ -1,0 +1,220 @@
+body{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 15px;
+	line-height: 1.1;
+	padding: :0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+
+/*Global*/
+
+.container{
+	width:80%;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+header ul{
+	margin: 0;
+	padding: 0;
+}
+.button_1{
+width: 80px;
+height: 35px;
+background-color: #00591d;
+border:none;
+color: #ffffff;
+padding-left: 10px;
+padding-right:10px;
+padding-top: 10px;
+}
+
+.dark{
+	padding: 15px;
+	background-color:#487824;
+	border:0; 
+	margin-top: 10px;
+	margin-bottom: 10px;
+	} 
+
+/*Header*/
+
+header{
+	background-color: #579b25;
+	color: #ffffff;
+	padding-top: 10px;
+	min-height: 70px;
+	border-bottom: #dcfc08 3px solid;
+}
+header a{
+	color: #ffffff;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px ;
+}
+header .branding{
+    float: left;
+}
+header .branding h1{
+    margin: 0;
+    word-spacing: 3px;
+}
+header nav{
+	float: right;
+	margin-right: auto;
+	margin-top: -40px;
+}
+header .heighlight, header .current a{
+	color: #00591d;
+	font-weight: bold;
+}
+header a:hover{
+color: #2c6700;
+font-weight: bold;
+}
+
+/* Showcase */
+
+#showcase{
+	min-height: 400px;
+	background:url(../image/pexels-photo.jpeg);
+	text-align: center;
+	color:#ffffff;
+}
+#showcase h1{
+	font-weight: bold;
+	font-size: 50px;
+	margin-bottom: 30px;
+	margin-top: 95px;
+}
+#showcase p{
+	font-size: 17px;
+}
+
+/* Newslatter*/
+
+#newsletter{
+	padding: 15px;
+	color: #ffffff;
+	background-color:#487824; 
+}
+#newsletter h1{
+    float: left;
+}
+#newsletter form{
+	float: right;
+	margin-top: 18px;
+}
+#newsletter input[type="email"]{
+	width:80%;
+	height: 25px;
+	padding: 4px;
+}
+
+/*Boxes*/
+
+#boxes{
+	margin-top: 20px;
+}
+.box{
+float:left;
+width:30%;
+text-align: center;
+padding: 10px;
+background-color:red;
+}
+#boxes .box img{
+	width:90px;
+}
+
+/*About us sidebar*/
+
+#sidebar{
+	float: right;
+	width: 30%;
+	margin-top: 20px;
+}
+#main-art{
+float: left;
+width: 65%;
+}
+
+/*Login form*/
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 100%;
+}
+
+
+.container {
+    padding: 16px;
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+/*Footer*/
+footer{
+	margin-top: 20px;
+	padding: 20px;
+	text-align: center;
+	background-color:#487824;
+	color:#ffffff; 
+}
